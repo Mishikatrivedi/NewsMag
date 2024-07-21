@@ -1,5 +1,5 @@
 # NewsMag
-##React And BOOTSTRAP
+#React And BOOTSTRAP
 =>npm create vite@latest
 Project name: news-mag
 framework: React
