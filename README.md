@@ -1,29 +1,56 @@
 # NewsMag
+
 This is a News Magazine
 
-##React And BOOTSTRAP
-=>npm create vite@latest
-Project name: news-mag
-framework: React
-variant: JavaScript
-now install all the dependencies from package json => npm install => node_modules created 
-to run this project => npm run dev 
-src -> App.jsx clear and write rafc
-clear many files default codes 
-##BOOTSTRAP
-Add CDN to the project to use bootstarp with React project.
-Add link to bootstarp css and script file  
-Goto BOOTSTRAP -> Component section 
-make Components folder and make jsx files in it (Navbar , NewsBoard , NewsItem)
-mount them to App.jsx
-##News API 
-store API key in environment variable from News API site -> .env file
-from the site -> documentation -> top headlines copy the link 
-add this to NewsBoard.jsx file 
-add useState() variable for the articles 
-fetch the articles from the url 
-then display them in NewsItem component map them 
-create news props in NewsBoard
-then destructure the props in NewsItem and then use the props in it 
-Add stylings 
-Add categories to Navbar
+## React and Bootstrap
+
+1. Create a new Vite project:
+    ```bash
+    npm create vite@latest
+    ```
+    - Project name: `news-mag`
+    - Framework: React
+    - Variant: JavaScript
+
+2. Install all dependencies:
+    ```bash
+    npm install
+    ```
+    This will create the `node_modules` directory.
+
+3. Run the project:
+    ```bash
+    npm run dev
+    ```
+
+4. In `src/App.jsx`, clear existing code and write:
+    ```jsx
+    rafc
+    ```
+    Also, clear many default code files.
+
+## Bootstrap
+
+1. Add Bootstrap CDN to your project. Include the following Bootstrap CSS and script files in your HTML.
+
+2. Go to the Bootstrap -> Components section.
+
+3. Create a `Components` folder and add JSX files (e.g., `Navbar.jsx`, `NewsBoard.jsx`, `NewsItem.jsx`).
+
+4. Mount these components in `App.jsx`.
+
+## News API
+
+1. Store your API key in an environment variable using a `.env` file from the News API site.
+
+2. From the site -> documentation -> top headlines, copy the API URL.
+
+3. Add this URL to `NewsBoard.jsx`.
+
+4. Add a `useState` variable for the articles.
+
+5. Fetch the articles from the URL and display them in the `NewsItem` component by mapping them.
+
+6. Create `news` props in `NewsBoard`, destructure these props in `NewsItem`, and use them.
+
+7. Add styling and categories to the `Navbar`.
